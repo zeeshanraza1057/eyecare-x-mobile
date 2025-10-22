@@ -1,0 +1,27 @@
+{
+  "name": "ecx-mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wdio/cli": "^9.20.0",
+    "dotenv": "^17.2.3",
+    "fs": "^0.0.1-security",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.7.4",
+    "webdriverio": "^9.20.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.20.0",
+    "@wdio/mocha-framework": "^9.20.0",
+    "@wdio/spec-reporter": "^9.20.0",
+    "appium-uiautomator2-driver": "^5.0.4"
+  }
+}
